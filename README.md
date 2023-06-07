@@ -51,4 +51,7 @@ Step 10:
 To asses the completeness of the assembled genome we have used BUSCO.
 The usage is: `busco -m genome --auto-lineage-euk -i flye/assembly/assembly.fasta -o busco/`
 
+Data storage
+The original files are stored at isengard.bioinformatics-atgm.nl, the location /mnt/studentfiles/2023/2023MBI_11/comparative_genomics_A_niger
+
 
