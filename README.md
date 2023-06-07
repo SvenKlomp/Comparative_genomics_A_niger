@@ -1,6 +1,8 @@
 # Comparative_genomics_A_niger
 Comparative genomics of a 40 year old lineage of Aspergillus niger. The goal of this project is a SNP and overall genome analysis of _Aspergillus niger_ mutants by using Illumina and Nanopore seqeuncing data. Besides using own sequenced data publicly available data is used as well. 
 
+All tools except Trimmomatic were installed with Bioconda.
+
 Analysis:
 
 Step 1: 
