@@ -10,7 +10,7 @@ The usage is: `NanoPlot --fastq input_data.fastq -o nanoplot/input_data/`
 
 Step 2: 
 We have filtered the Nanopore data with NanoFilt.
-The usage is: `NanoFilt -q 15 -l 1000 -o nanofilt/output_data_after_filtering.fastq -f input_data.fastq`
+The usage is: `NanoFilt -q 15 -l 1000 input_data.fastq > nanofilt/output_data_after_filtering.fastq`
 
 Step 3: 
 We have done a quality controll of our filtered Nanopore data with NanoPlot.
@@ -31,8 +31,24 @@ The usage is: `java -jar trimmomatic-0.39.jar PE -threads 8 -phred33 input_data_
 Repeat step 4 and 5 for the trimmed reads
 
 Step 7:
-We have assembled the reads with Flye:
+We have assembled the reads with Flye.
 The usage is: `flye -t 8 -g 36m --nano-raw nanofilt/output_data_after_filtering.fastq trimmomatic_out/R1_paired.fastq.gz trimmomatic_out/R2_paired.fastq.gz -o flye/assembly/`
 
 Step 8: 
-We have assesed the initial quality of the assembly 
+We have assesed the initial quality of the assembly using Quast.
+The usage is: `quast -t 6 -e --fungus -o quast/ flye/assembly/assembly.fasta`
+
+Step 9:
+We have further assesed the quality of the assembly with Bandage.
+The usage is: `Bandage`
+This opens an GUI
+Select "File" and open "Load Graph"
+Open flye/assembly/assembly.gfa
+Save image by selecting "File", "Save image"
+Save image in bandage folder as .png
+
+Step 10: 
+To asses the completeness of the assembled genome we have used BUSCO.
+The usage is: `busco -m genome --auto-lineage-euk -i flye/assembly/assembly.fasta -o busco/`
+
+
