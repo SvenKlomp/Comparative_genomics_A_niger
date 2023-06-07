@@ -3,7 +3,7 @@ Comparative genomics of a 40 year old lineage of Aspergillus niger. The goal of 
 
 All tools except Trimmomatic were installed with Bioconda.
 
-Analysis:
+# Analysis
 
 Step 1: 
 
