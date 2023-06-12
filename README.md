@@ -98,6 +98,8 @@ De Coster, W., Schultz, D. T., Cruts, M., & Van Broeckhoven, C. (2018). NanoPack
 
 **FastQC**
 
+[website](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+
 [GitHub](https://github.com/s-andrews/FastQC)
 
 **MultiQC**
