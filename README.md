@@ -108,17 +108,36 @@ Ewels, P., Magnusson, M., Lundin, S., & Käller, M. (2016). MultiQC: Summarize a
 
 **Trimmomatic**
 
+Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina sequence data. Bioinformatics, 30(15), 2114-2120. [paper](https://doi.org/10.1093/bioinformatics/btu170)
+
+[GitHub](https://github.com/usadellab/Trimmomatic)
+
 **Flye**
+
+Kolmogorov, M., Yuan, J., Lin, Y., & Pevzner, P. A. (2019). Assembly of long, error-prone reads using repeat graphs. Nature Biotechnology, 37(5), 540-546. [paper](https://doi.org/10.1038/s41587-019-0072-8)
+
+[GitHub](https://github.com/fenderglass/Flye)
 
 **Polypolish**
 
-Wick, R. R., & Holt, K. E. (2022). Polypolish: Short-read polishing of long-read bacterial genome assemblies. PLoS Computational Biology, 18(1). 
-[paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009802)
+Wick, R. R., & Holt, K. E. (2022). Polypolish: Short-read polishing of long-read bacterial genome assemblies. PLoS Computational Biology, 18(1). [paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009802)
 
 [GitHub](https://github.com/rrwick/Polypolish/wiki/How-to-run-Polypolish)
 
 **Quast**
 
+Gurevich A, Saveliev V, Vyahhi N, Tesler G. QUAST: quality assessment tool for genome assemblies. Bioinformatics. 2013 Apr 15;29(8):1072-5. [paper](https://pubmed.ncbi.nlm.nih.gov/23422339/)
+
+[GitHub](https://github.com/ablab/quast)
+
 **Bandage**
 
+Wick, R. R., Schultz, M. B., Zobel, J., & Holt, K. E. (2015). Bandage: Interactive visualization of de novo genome assemblies. Bioinformatics, 31(20), 3350-3352. [paper](https://doi.org/10.1093/bioinformatics/btv383)
+
+[GitHub](https://github.com/rrwick/Bandage)
+
 **BUSCO**
+
+Simão FA, Waterhouse RM, Ioannidis P, Kriventseva EV, Zdobnov EM. BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics. 2015 Oct 1;31(19):3210-2. [paper](https://pubmed.ncbi.nlm.nih.gov/26059717/)
+
+[GitHub](https://github.com/WenchaoLin/BUSCO-Mod)
