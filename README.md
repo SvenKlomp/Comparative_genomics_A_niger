@@ -1,9 +1,7 @@
 # Comparative_genomics_A_niger
 Comparative genomics of a 40 year old lineage of Aspergillus niger. The goal of this project is a SNP and overall genome analysis of _Aspergillus niger_ mutants by using Illumina and Nanopore seqeuncing data. Besides using own sequenced data publicly available data is used as well. 
 
-
 ![image](https://github.com/SvenKlomp/Comparative_genomics_A_niger/assets/127952914/ffac3bea-0bc8-44e9-bd31-952a9d21c531)
-
 
 All tools except Trimmomatic were installed with Bioconda.
 
@@ -46,12 +44,26 @@ Step 7:
 We have assembled the reads with Flye.
 The usage is: `flye -t 8 -g 36m --nano-raw nanofilt/output_data_after_filtering.fastq trimmomatic_out/R1_paired.fastq.gz trimmomatic_out/R2_paired.fastq.gz -o flye/assembly/`
 
-Step 8: 
+Step 8:
+
+We polished the long read assemlby with the paired-end short reads using Polypolish. 
+First the short reads need to be aligned to the draft assemlby with BWA: 
+
+`bwa index assembly.fasta`
+
+`bwa mem -a assembly.fasta reads_1.fastq.gz > alignments_1.sam`
+
+`bwa mem -a assembly.fasta reads_1.fastq.gz > alignments_1.sam`
+
+Then the alignments were filtered using the Polypolish's insert size filter script: `polypolish_insert_filter.py --in1 alignments_1.sam --in2 alignments_2.sam --out1 filtered_1.sam --out2 filtered_2.sam`
+Finally the polishing was done: `polypolish draft.fasta filtered_1.sam filtered_2.sam > polished.fasta`
+
+Step 9: 
 
 We have assesed the initial quality of the assembly using Quast.
 The usage is: `quast -t 6 -e --fungus -o quast/ flye/assembly/assembly.fasta`
 
-Step 9:
+Step 10:
 
 We have further assesed the quality of the assembly with Bandage.
 The usage is: `Bandage`
@@ -61,7 +73,7 @@ Open flye/assembly/assembly.gfa
 Save image by selecting "File", "Save image"
 Save image in bandage folder as .png
 
-Step 10: 
+Step 11: 
 
 To asses the completeness of the assembled genome we have used BUSCO.
 The usage is: `busco -m genome --auto-lineage-euk -i flye/assembly/assembly.fasta -o busco/`
