@@ -86,17 +86,32 @@ The original files are stored at isengard.bioinformatics-atgm.nl, the location /
 
 **NanoPlot**
 
+De Coster, W., & Rademakers, R. (2023). NanoPack2: Population-scale evaluation of long-read sequencing data. Bioinformatics, 39(5). [paper](https://doi.org/10.1093/bioinformatics/btad311)
+
+[GitHub](https://github.com/wdecoster/NanoPlot)
+
 **NanoFilt**
+
+De Coster, W., Schultz, D. T., Cruts, M., & Van Broeckhoven, C. (2018). NanoPack: Visualizing and processing long-read sequencing data. Bioinformatics, 34(15), 2666-2669. [paper](https://doi.org/10.1093/bioinformatics/bty149)
+
+[GitHub](https://github.com/wdecoster/nanofilt)
 
 **FastQC**
 
+[GitHub](https://github.com/s-andrews/FastQC)
+
 **MultiQC**
+
+Ewels, P., Magnusson, M., Lundin, S., & Käller, M. (2016). MultiQC: Summarize analysis results for multiple tools and samples in a single report. Bioinformatics, 32(19), 3047-3048. [paper](https://doi.org/10.1093/bioinformatics/btw354)
+
+[GitHub](https://github.com/ewels/MultiQC)
 
 **Trimmomatic**
 
 **Flye**
 
 **Polypolish**
+
 Wick, R. R., & Holt, K. E. (2022). Polypolish: Short-read polishing of long-read bacterial genome assemblies. PLoS Computational Biology, 18(1). 
 [paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009802)
 
