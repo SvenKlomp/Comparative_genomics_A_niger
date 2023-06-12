@@ -82,4 +82,28 @@ The usage is: `busco -m genome --auto-lineage-euk -i flye/assembly/assembly.fast
 
 The original files are stored at isengard.bioinformatics-atgm.nl, the location /mnt/studentfiles/2023/2023MBI_11/comparative_genomics_A_niger
 
+# Acknowledgments
 
+**NanoPlot**
+
+**NanoFilt**
+
+**FastQC**
+
+**MultiQC**
+
+**Trimmomatic**
+
+**Flye**
+
+**Polypolish**
+Wick, R. R., & Holt, K. E. (2022). Polypolish: Short-read polishing of long-read bacterial genome assemblies. PLoS Computational Biology, 18(1). 
+[paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009802)
+
+[GitHub](https://github.com/rrwick/Polypolish/wiki/How-to-run-Polypolish)
+
+**Quast**
+
+**Bandage**
+
+**BUSCO**
