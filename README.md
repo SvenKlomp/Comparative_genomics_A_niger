@@ -84,6 +84,9 @@ The original files are stored at isengard.bioinformatics-atgm.nl, the location /
 
 # Acknowledgments
 
+Special thanks to [Ginkobioworks](https://www.ginkgobioworks.com/) for providing the sequencing data.
+
+
 **NanoPlot**
 
 De Coster, W., & Rademakers, R. (2023). NanoPack2: Population-scale evaluation of long-read sequencing data. Bioinformatics, 39(5). [paper](https://doi.org/10.1093/bioinformatics/btad311)
