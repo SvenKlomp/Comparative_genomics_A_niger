@@ -53,7 +53,7 @@ First the short reads need to be aligned to the draft assemlby with BWA:
 
 `bwa mem -a assembly.fasta reads_1.fastq.gz > alignments_1.sam`
 
-`bwa mem -a assembly.fasta reads_1.fastq.gz > alignments_1.sam`
+`bwa mem -a assembly.fasta reads_2.fastq.gz > alignments_2.sam`
 
 Then the alignments were filtered using the Polypolish's insert size filter script: `polypolish_insert_filter.py --in1 alignments_1.sam --in2 alignments_2.sam --out1 filtered_1.sam --out2 filtered_2.sam`
 Finally the polishing was done: `polypolish draft.fasta filtered_1.sam filtered_2.sam > polished.fasta`
