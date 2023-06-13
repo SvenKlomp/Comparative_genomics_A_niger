@@ -42,7 +42,7 @@ Repeat step 4 and 5 for the trimmed reads
 Step 7:
 
 We have assembled the reads with Flye.
-The usage is: `flye -t 8 -g 36m --nano-raw nanofilt/output_data_after_filtering.fastq trimmomatic_out/R1_paired.fastq.gz trimmomatic_out/R2_paired.fastq.gz -o flye/assembly/`
+The usage is: `flye -g 36m --nano-corr nanofilt/output_data_after_filtering.fastq trimmomatic_out/R1_paired.fastq.gz trimmomatic_out/R2_paired.fastq.gz -o flye/assembly/`
 
 Step 8:
 
