@@ -1,1 +1,2 @@
-read me
+In this dir
+# help
