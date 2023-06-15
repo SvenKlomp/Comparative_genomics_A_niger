@@ -151,3 +151,9 @@ Wick, R. R., Schultz, M. B., Zobel, J., & Holt, K. E. (2015). Bandage: Interacti
 Simão FA, Waterhouse RM, Ioannidis P, Kriventseva EV, Zdobnov EM. BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics. 2015 Oct 1;31(19):3210-2. [paper](https://pubmed.ncbi.nlm.nih.gov/26059717/)
 
 [GitHub](https://github.com/WenchaoLin/BUSCO-Mod)
+
+**Augustus**
+
+Stanke M, Morgenstern B. AUGUSTUS: a web server for gene prediction in eukaryotes that allows user-defined constraints. Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W465-7. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1160219/)
+
+[GitHub](https://github.com/Gaius-Augustus/Augustus)
