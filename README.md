@@ -78,6 +78,11 @@ Step 11:
 To asses the completeness of the assembled genome we have used BUSCO.
 The usage is: `busco -m genome --auto-lineage-euk -i flye/assembly/assembly.fasta -o busco/`
 
+# aspergillus_niger
+
+In this directory are the files which are needed for Augustus to annotate _Aspergillus_ _niger_. These files were obtained after following this [guide](https://vcru.wisc.edu/simonlab/bioinformatics/programs/augustus/docs/tutorial2015/training.html). The input files for the training were imported from [NCBI](https://www.ncbi.nlm.nih.gov/genome/?term=Aspergillus%20niger%5BOrganism%5D&cmd=DetailsSearch). 
+To use these files for your own _A._ _niger_ annotation, copy these files into a new directory called "aspergillus_niger"; miniconda3/envs/augustus/config/species/aspergillus_niger. To use your _A._ _niger_ species in your annotation, use `--species=aspergillus_niger`.
+
 # Data storage
 
 The original files are stored at isengard.bioinformatics-atgm.nl, the location /mnt/studentfiles/2023/2023MBI_11/comparative_genomics_A_niger
