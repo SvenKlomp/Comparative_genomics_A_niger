@@ -1,7 +1,7 @@
 # Comparative_genomics_A_niger
 Comparative genomics of a 40 year old lineage of Aspergillus niger. The goal of this project is a SNP and overall genome analysis of _Aspergillus niger_ mutants by using Illumina and Nanopore seqeuncing data. Besides using own sequenced data publicly available data is used as well. 
 
-<img width="1163" alt="image" src="https://github.com/SvenKlomp/Comparative_genomics_A_niger/assets/127952914/d772e918-fe80-4e7f-a841-785b37792d12">
+<img width="1163" alt="image" src="https://github.com/SvenKlomp/Comparative_genomics_A_niger/assets/127952914/fdf4b5a4-c072-431d-99e4-f97d5e3d1da3">
 
 All tools except Trimmomatic were installed with Bioconda.
 
